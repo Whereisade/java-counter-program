@@ -4,6 +4,8 @@ const increaseBtn = document.getElementById("increaseBtn");
 let countLabel = document.getElementById("countLabel");
 
 let count = 0;
+let up = "up";
+let down = "down";
 
 increaseBtn.onclick = function(){
     count++;
@@ -16,7 +18,12 @@ decreaseBtn.onclick = function(){
 resetBtn.onclick = function(){
     count = 0;
     countLabel.textContent = count;
+    
 
 }
+
+console.log(decreaseBtn)
+console.log(increaseBtn)
+console.log(resetBtn)
 
 
